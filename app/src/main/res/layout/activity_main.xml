@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="SelectFrag"
+        android:text="Button One" />
+
+    <Button
+        android:id="@+id/btnButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="SelectFrag"
+        android:text="Button Two" />
+
+    <fragment
+        android:name="com.imranmars0701gmail.fragment_excercise.Fragment_One"
+        android:id="@+id/frag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
